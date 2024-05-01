@@ -31,7 +31,7 @@ const NewsCard = ({ article: { description, publishedAt, source, title, url, url
         </div>
         <Typography className={classes.title} gutterBottom variant="h5" component="h2">{title}</Typography>
         <CardContent>
-          <Typography variant="body2" color="textSecondary" component="p">{description}</Typography>
+          <Typography variant="body2" color="textSecondary p-3 bg-white" component="p">{description}</Typography>
         </CardContent>
       </CardActionArea>
       <CardActions className={classes.cardActions}>
